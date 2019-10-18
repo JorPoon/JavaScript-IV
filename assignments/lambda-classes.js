@@ -13,9 +13,13 @@ class Person {
 }
 
 const john = new Person ({ name: "John", age: 25, location: "Balibala", gender: "Male"}); 
+const david = new Person ({ name: "David", age: 45, location: "lila", gender: "Male"}); 
+
 
 console.log(john);
 console.log(john.speak());
+console.log(david);
+console.log(david.speak());
 
 class Instructor extends Person {
     constructor(teach) {
